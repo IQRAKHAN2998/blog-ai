@@ -19,7 +19,7 @@ const IdPage =async ({params} : Iparams) => {
         <Wrapper>
           <div className='space-y-4'>
     <h2 className='text-3xl underline font-bold'>{res?.heading}</h2>
-    <Image src={res?.images as string} alt="images" width={500} height={500}></Image>
+    <Image src={res?.image as string} alt="images" width={500} height={500}></Image>
     <h2 className='text-2xl font-bold'>Created By : {res?.createdby}</h2>
     
     <h2 className='font-semibold'>{res?.description}</h2>
