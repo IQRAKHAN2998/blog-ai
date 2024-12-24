@@ -2,7 +2,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import Wrapper from './wrapper/page'
-import Comment from './wrapper/comment'
 
 const heroSection = () => {
   return (

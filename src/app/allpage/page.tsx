@@ -1,5 +1,4 @@
 import React from 'react'
-// import IdPage from './data/[id]/page'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Data } from '../data/data'
