@@ -1,10 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import Wrapper from './wrapper/page'
+import Wrapper from './wrapper/wrapper'
 
 const heroSection = () => {
   return (
+    <>
     <Wrapper>
       <h1 className='text-center text-4xl font-semibold my-2'>Generative AI</h1>
       <Image src="/image.jpeg" alt="genai" width={500} height={400}></Image>
@@ -25,6 +26,7 @@ const heroSection = () => {
       </div>
 
     </Wrapper>
+    </>
 
   )
 }
