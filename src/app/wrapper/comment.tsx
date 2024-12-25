@@ -20,7 +20,7 @@ const Comment = () => {
 
     return (
         <div>
-            <span className='flex flex-col '>
+            <span className='flex flex-col space-y-4'>
                 <h2 className='black font-semibold text-xl'>comment here</h2>
                 <form className='py-7 space-x-8  border-black' onSubmit={submitcommit}> 
                     <input type="text" placeholder='Comments here' value={comment}  onChange={(notrefresh) => setComment(notrefresh.target.value)}
